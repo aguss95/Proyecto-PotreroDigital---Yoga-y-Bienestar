@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales para toda la página */
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    color: #601198;
+    background-image: url("../imagenes/backgorund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+a {
+  color: inherit;
+}
+
+img, video,iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+
+.header {
+  /*background-color: #ffb81eaf;*/
+  display: flex;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header, .main, .footer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 100vh;
+  
+}
+
+.footer {
+  background-color: #f5b5cdc3;
+  color: #df3271;
+ /* background-color: #ffb81e;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header__titulo {
+  text-transform: uppercase;
+  text-align: center;
+  color: #df3271;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.header__descripcion {
+  font-style: italic;
+  text-align: center;
+}
+
+/* SECCION 1*/
+
+.seccion1 {
+  padding: 1rem;
+}
+
+
+.seccion1__lista {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.seccion1__lista {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.seccion1__enlace {
+  text-decoration: none;
+  background-color: #df3271b8;
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: inherit;
+}
+
+/* SECCION 2*/
+
+.seccion2 {
+  padding: 1rem;
+}
+
+.seccion2__video {
+  width: 600px; 
+  height: 50%;
+}
+
+/* SECCION 3*/
+
+.seccion3 {
+  padding: 1rem;
+}
+
+.seccion3__lista {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.seccion3__item {
+  background-color: #ffb81eaa;
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion3__enlace {
+  color: #601198;
+  text-transform: uppercase;
+}
+
+/* SECCION 4*/
+
+.seccion4 {
+  padding: 1rem;
+}
+
+.seccion4__banner {
+  display: block;
+  width: 100%;
+  opacity: .7;
+}
+
+/* Seccion 5 */
+
+.seccion5 {
+  padding: 2rem;
+}
+
+.seccion5__boton {
+  background-color: #f5b5cc;
+  border-color: #f5b5cc;
+}
+
+.seccion5__boton:hover {
+  background-color: #231f20;
+}
+  
+
+@media (max-width: 400px) {
+  body {
+  background-image: url("../imagenes/geometric-background.jpg") ;
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "chat.editor.wordWrap": "on",
+    "editor.wordWrap": "on"
+}
